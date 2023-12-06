@@ -2,216 +2,266 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-        <style>
-            span{
-                color: red;
-                font-weight: bold;
-            }
-            h1{
-                justify-content: center;
-                color: black;
-                text-align: center;
-                padding: 80px 0px 50px 0px;
-            }
-            a{
-                text-decoration: none;
-                color: white;
-            }
-        </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital@1&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    span {
+      color: red;
+      font-weight: bold;
+    }
+
+    h1 {
+      justify-content: center;
+      color: black;
+      text-align: center;
+      padding: 80px 0px 50px 0px;
+      font-family: 'Bebas Neue', sans-serif;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    label{
+      font-family: 'Bebas Neue', sans-serif;
+    }
+    .images{
+      width: 300px; 
+      height: 300px; 
+      border-radius: 20px;
+    }
+    .nav-item:hover{
+        border: 1px solid black;
+        border-radius: 6px;
+    }
+    @media screen and (max-width: 768px) {
+     .images{
+      border-radius: 50%;
+     }
+    }
+  </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">SAHL CT</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact-me">Contact me</a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li> -->
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
-    <div id="home" class="container-fluid">
-        <div style="height: 100vh;" class="container py-5 px-5 d-flex justify-content-center align-content-center flex-column ">
-            <div class="row justify-content-center">
-                <!-- image -->
-                <div class="col-auto">
-                    <img src="https://p.kindpng.com/picc/s/21-211180_transparent-businessman-clipart-png-user-man-icon-png.png"
-                        alt="">
-                </div>
-                <!-- text -->
-                <div class="col-md-5">
-                    <div class="d-flex flex-column text-center text-md-start align-items-center">
-                        <h1 style="padding: 30px 0px;">
-                            Web Developor
-                            Malappuram, kerala, India
-                        </h1>
-                        <p>"You are the averege of 5 people you gang around"</p>
-                        <h4>- Muhammad sahl ct -</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+      <a style="font-family: 'Bebas Neue', sans-serif; letter-spacing: 2px;" class="navbar-brand" href="#">SAHL CT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact me</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <div id="services" class="container d-flex flex-column align-items-center mb-4 "><div><h1>Services</h1></div>
-        <div class="row row-gap-3">
-            <div class="col d-flex justify-content-center "><div class="card" style="width: 18rem;height: 100%; border: 2px solid black;">
-                <div style="height: 200px;" class="main"><img src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=1060&t=st=1701759747~exp=1701760347~hmac=f2119e8d258ea0d31432b247cc29e26016d9d168cbffc1073feb4ed729164bf6" class="card-img-top" alt="..."></div>
-                <div class="card-body d-flex flex-column align-items-center">
-                  <h5 class="card-title"><span>W</span>eb <span>D</span>evelopment</h5>
-                  <p style="text-align: justify;" class="card-text">I have had extensive Design and web technologies experience in office environments, giving me varied skills and the ability to work with many different types of people. I believe I could fit easily into your Project.Several factors such as consistency.</p>
-                  
-                </div>
-              </div></div>
-              <div class="col d-flex justify-content-center "><div class="card" style="width: 18rem;height: 100%; border: 2px solid black;">
-                <div style="height: 200px;" class="main"><img src="https://img.freepik.com/free-vector/marketing-consulting-concept-illustration_114360-9027.jpg?w=1060&t=st=1701760123~exp=1701760723~hmac=f1b196e688d0f6961a945d4869f3ec73752720e621fe068047c28f473b0537f5" class="card-img-top" alt="..."></div>
-                <div class="card-body  d-flex flex-column align-items-center">
-                  <h5 class="card-title"><span>M</span>arketing</h5>
-                  <p style="text-align: justify;" class="card-text">Developing visual concepts and designing advertisements that effectively communicate with target audiences. Creating marketing materials such as brochures, pamphlets, flyers, posters, billboards,brochures, pamphlets..etc</p>
-                  
-                </div>
-              </div></div>
-              <div class="col d-flex justify-content-center "><div class="card" style="width: 18rem;height: 100%; border: 2px solid black;">
-                <div style="height: 200px;" class="main"><img src="https://img.freepik.com/free-vector/content-creator-editing-video-footage-studio-editor-publishing-viral-video-social-media-multimedia-production-flat-vector-illustration-motion-design-concept-banner-landing-web-page_74855-21752.jpg?w=900&t=st=1701760231~exp=1701760831~hmac=4f9395fd52ffcd0b8878d53f27aa06e04527dcd5190dc2461c8edd9793d6532b" class="card-img-top" alt="..."></div>
-                <div class="card-body  d-flex flex-column align-items-center">
-                  <h5 class="card-title"><span>V</span>ideo <span>E</span>diting</h5>
-                  <p style="text-align: justify;" class="card-text">Video editing services include the review and refinement of video and special effects for motion pictures, television, or online video. These services can be provided by independent video editing consultants or full-fledged editing companies.</p>
-                  
-                </div>
-              </div></div>
-              <div class="col d-flex justify-content-center "><div class="card" style="width: 18rem;height: 100%; border: 2px solid black;">
-                <div style="height: 200px;" class="main"><img src="https://img.freepik.com/free-vector/global-data-security-personal-data-security-cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection_1150-37375.jpg?w=996&t=st=1701761586~exp=1701762186~hmac=6fa96e53a5df687bf7ebd012c8f99b390faf4eca0db89cd544786a6471a9aaa1" class="card-img-top" alt="..."></div>
-                
-                <div class="card-body d-flex flex-column align-items-center">
-                  <h5 class="card-title"><span>C</span>yber <span>S</span>ecurity</h5>
-                  <p style="text-align: justify;" class="card-text">Cybersecurity is my passion, and I specialize in fortifying digital landscapes against potential threats. With a strong foundation in risk assessment and advanced threat detection, I bring expertise in implementing robust security protocols to safeguard sensitive information.</p>
-                  
-                </div>
-              </div></div>
+  <div id="home" class="container-fluid">
+    <div style="height: 100vh;"
+      class="container py-5 px-5 d-flex justify-content-center align-content-center flex-column ">
+      <div class="row justify-content-center">
+        <!-- image -->
+        <div class="col-auto">
+          <img class="images" src="https://helostatus.com/wp-content/uploads/2021/08/profile-pictures-for-WhatsApp-1024x1024.jpg"
+            alt="">
         </div>
+        <!-- text -->
+        <div class="col-md-5">
+          <div class="d-flex flex-column text-center text-md-start align-items-center">
+            <h1 style="padding: 30px 0px;">
+              Web Developor
+              Malappuram, kerala, India
+            </h1>
+            <p style="font-family: 'Alegreya Sans', sans-serif;">"You are the averege of 5 people you gang around"</p>
+            <h4 style="font-family: 'Bebas Neue', sans-serif;">- Muhammad sahl ct -</h4>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <div id="projects" class="container"><div><h1>Projects</h1></div>
+  <div id="services" class="container d-flex flex-column align-items-center mb-4 ">
+    <div>
+      <h1>Services</h1>
+    </div>
+    <div class="row row-gap-3">
+      <div class="col d-flex justify-content-center ">
+        <div class="card" style="width: 18rem;height: 100%; border: 2px solid black;">
+          <div style="height: 200px;" class="main"><img
+              src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=1060&t=st=1701759747~exp=1701760347~hmac=f2119e8d258ea0d31432b247cc29e26016d9d168cbffc1073feb4ed729164bf6"
+              class="card-img-top" alt="..."></div>
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title"><span>W</span>eb <span>D</span>evelopment</h5>
+            <p style="text-align: justify;" class="card-text">I have had extensive Design and web technologies
+              experience in office environments, giving me varied skills and the ability to work with many different
+              types of people. I believe I could fit easily into your Project.Several factors such as consistency.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center ">
+        <div class="card" style="width: 18rem;height: 100%; border: 2px solid black;">
+          <div style="height: 200px;" class="main"><img
+              src="https://img.freepik.com/free-vector/marketing-consulting-concept-illustration_114360-9027.jpg?w=1060&t=st=1701760123~exp=1701760723~hmac=f1b196e688d0f6961a945d4869f3ec73752720e621fe068047c28f473b0537f5"
+              class="card-img-top" alt="..."></div>
+          <div class="card-body  d-flex flex-column align-items-center">
+            <h5 class="card-title"><span>M</span>arketing</h5>
+            <p style="text-align: justify;" class="card-text">Developing visual concepts and designing advertisements
+              that effectively communicate with target audiences. Creating marketing materials such as brochures,
+              pamphlets, flyers, posters, billboards,brochures, pamphlets..etc</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center ">
+        <div class="card" style="width: 18rem;height: 100%; border: 2px solid black;">
+          <div style="height: 200px;" class="main"><img
+              src="https://img.freepik.com/free-vector/content-creator-editing-video-footage-studio-editor-publishing-viral-video-social-media-multimedia-production-flat-vector-illustration-motion-design-concept-banner-landing-web-page_74855-21752.jpg?w=900&t=st=1701760231~exp=1701760831~hmac=4f9395fd52ffcd0b8878d53f27aa06e04527dcd5190dc2461c8edd9793d6532b"
+              class="card-img-top" alt="..."></div>
+          <div class="card-body  d-flex flex-column align-items-center">
+            <h5 class="card-title"><span>V</span>ideo <span>E</span>diting</h5>
+            <p style="text-align: justify;" class="card-text">Video editing services include the review and refinement
+              of video and special effects for motion pictures, television, or online video. These services can be
+              provided by independent video editing consultants or full-fledged editing companies.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center ">
+        <div class="card" style="width: 18rem;height: 100%; border: 2px solid black;">
+          <div style="height: 200px;" class="main"><img
+              src="https://img.freepik.com/free-vector/global-data-security-personal-data-security-cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection_1150-37375.jpg?w=996&t=st=1701761586~exp=1701762186~hmac=6fa96e53a5df687bf7ebd012c8f99b390faf4eca0db89cd544786a6471a9aaa1"
+              class="card-img-top" alt="..."></div>
+
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title"><span>C</span>yber <span>S</span>ecurity</h5>
+            <p style="text-align: justify;" class="card-text">Cybersecurity is my passion, and I specialize in
+              fortifying digital landscapes against potential threats. With a strong foundation in risk assessment and
+              advanced threat detection, I bring expertise in implementing robust security protocols to safeguard
+              sensitive information.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects" class="container">
+    <div>
+      <h1>Projects</h1>
+    </div>
     <div class="row">
-        
-        <div class="col d-flex justify-content-evenly flex-wrap gap-3 mb-4">
-            <div class="card" style="width: 20rem; border: 2px solid black;">
-                <div style="height: 300px;"><img src="https://img.freepik.com/free-vector/calculator-concept-illustration_114360-1239.jpg?w=740&t=st=1701796097~exp=1701796697~hmac=1887fef69c98e804116604247c9ad866bcb1655777536def6a97cf762afc95ab" class="card-img-top" alt="..."></div>
-            
-                <div class="card-body d-flex flex-column justify-content-around align-items-center">
-                  <h5 class="card-title"><span>C</span>alculator <span>N</span>umber <span>S</span>ystem</h5>
-                  <p style="text-align: justify;" class="card-text pt-2">This calculator program is designed to handle various number systems, providing users with the flexibility to perform arithmetic operations in decimal, binary, octal, and hexadecimal formats. It offers addition, subtraction, multiplication, and division operations.</p>
-                  
-                </div>
-              </div>
-              <div class="card" style="width: 20rem; border: 2px solid black;">
-                <div style="height: 300px;"><img src="https://img.freepik.com/free-vector/setup-analytics-concept-illustration_114360-1429.jpg?w=740&t=st=1701796302~exp=1701796902~hmac=1e609c16c69bbaef3625b2f2734ed2f3d421649664d1e11ba10c9237fecbfb5c" class="card-img-top" alt="..."></div>
-                <div class="card-body d-flex flex-column justify-content-around align-items-center">
-                  <h5 class="card-title"><span>C</span>ollage <span>E</span>nquary <span>S</span>ystem</h5>
-                  <p style="text-align: justify;" class="card-text p-2">Designed a collage enquiry system program for seamless information retrieval and management, enhancing user experience. Implemented user-friendly interfaces for prospective students. </p>
-                  
-                </div>
-              </div>
-        </div>
-    </div>
-    </div>
 
-    <div id="contact-me" class="container"><div><h1>Contact Me</h1></div>
+      <div class="col d-flex justify-content-evenly flex-wrap gap-3 mb-4">
+        <div class="card" style="width: 20rem; border: 2px solid black;">
+          <div style="height: 300px;"><img
+              src="https://img.freepik.com/free-vector/calculator-concept-illustration_114360-1239.jpg?w=740&t=st=1701796097~exp=1701796697~hmac=1887fef69c98e804116604247c9ad866bcb1655777536def6a97cf762afc95ab"
+              class="card-img-top" alt="..."></div>
+
+          <div class="card-body d-flex flex-column justify-content-around align-items-center">
+            <h5 class="card-title"><span>C</span>alculator <span>N</span>umber <span>S</span>ystem</h5>
+            <p style="text-align: justify;" class="card-text pt-2">This calculator program is designed to handle various
+              number systems, providing users with the flexibility to perform arithmetic operations in decimal, binary,
+              octal, and hexadecimal formats. It offers addition, subtraction, multiplication, and division operations.
+            </p>
+
+          </div>
+        </div>
+        <div class="card" style="width: 20rem; border: 2px solid black;">
+          <div style="height: 300px;"><img
+              src="https://img.freepik.com/free-vector/setup-analytics-concept-illustration_114360-1429.jpg?w=740&t=st=1701796302~exp=1701796902~hmac=1e609c16c69bbaef3625b2f2734ed2f3d421649664d1e11ba10c9237fecbfb5c"
+              class="card-img-top" alt="..."></div>
+          <div class="card-body d-flex flex-column justify-content-around align-items-center">
+            <h5 class="card-title"><span>C</span>ollage <span>E</span>nquary <span>S</span>ystem</h5>
+            <p style="text-align: justify;" class="card-text p-2">Designed a collage enquiry system program for seamless
+              information retrieval and management, enhancing user experience. Implemented user-friendly interfaces for
+              prospective students. </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact-me" class="container">
+    <div>
+      <h1>Contact Me</h1>
+    </div>
     <div class="row">
-        <div class="col">
-            <form class="row g-3">
-                <div class="col-md-6">
-                  <label for="validationDefault01" class="form-label">Full Name</label>
-                  <input type="text" class="form-control" id="validationDefault01" value="" placeholder="Enter your name" required>
-                </div>
-                <div class="col-md-6">
-                  <label for="validationDefault02" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="validationDefault02" value="" placeholder="Example@gmail.com" required>
-                </div>
-                <!-- <div class="col-md-4">
-                  <label for="validationDefaultUsername" class="form-label">Username</label>
-                  <div class="input-group">
-                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                    <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
-                  </div>
-                </div> -->
-                <div class="col-md-6">
-                  <label for="validationDefault03" class="form-label">Place</label>
-                  <input type="text" class="form-control" id="validationDefault03" placeholder="malappuram" required>
-                </div>
-                <div class="col-md-6">
-                  <label for="validationDefault04" class="form-label">Phone No:</label>
-                  <input type="tel" class="form-control" id="validationDefault04" placeholder="+91 1234567890" required>
-                    <!-- <option selected disabled value="">Choose...</option>
-                    <option>...</option>
-                  </select> -->
-                </div>
-                <div class="col-md-12">
-                  <label for="validationDefault05" class="form-label">Message</label>
-                  <textarea cols="" rows="4" class="form-control" id="validationDefault05" placeholder="type your message here..."></textarea>
-                </div>
-                <!-- <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                    <label class="form-check-label" for="invalidCheck2">
-                      Agree to terms and conditions
-                    </label>
-                  </div>
-                </div> -->
-                <div class="col-12 d-flex justify-content-center">
-                  <button class="btn btn-primary mb-5 w-25 " type="submit">Submit</button>
-                </div>
-              </form>
-        </div>
+      <div class="col">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="validationDefault01" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="validationDefault01" value="" placeholder="Enter your name"
+              required>
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault02" class="form-label">Email</label>
+            <input type="email" class="form-control" id="validationDefault02" value="" placeholder="Example@gmail.com"
+              required>
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault03" class="form-label">Place</label>
+            <input type="text" class="form-control" id="validationDefault03" placeholder="malappuram" required>
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault04" class="form-label">Phone No:</label>
+            <input type="tel" class="form-control" id="validationDefault04" placeholder="+91 1234567890" required>
+          </div>
+          <div class="col-md-12">
+            <label for="validationDefault05" class="form-label">Message</label>
+            <textarea cols="" rows="4" class="form-control" id="validationDefault05"
+              placeholder="type your message here..."></textarea>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <button style="font-family: 'Bebas Neue', sans-serif; letter-spacing: 3px;" class="btn btn-primary mb-5 w-25 " type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
-    </div>
+  </div>
 
-    <footer class="d-flex justify-content-center align-items-center gap-md-5 gap-4 fs-3" style="width: 100%; height: 100px; background-color: black; color: white;">
-        <a href="https://wa.me/+919496279843"><i class="bi bi-whatsapp"></i></a>
-        <a href="https://www.instagram.com/sahl_ct/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><i class="bi bi-instagram"></i></a>
-        <a href="https://github.com/sahlct"><i class="bi bi-github"></i></a>
-        <a href="https://mailto.abdullachoyathala786@gmail.com"><i class="bi bi-envelope-at"></i></a>
+  <footer class="d-flex justify-content-center align-items-center gap-md-5 gap-4 fs-3"
+    style="width: 100%; height: 100px; background-color: black; color: white;">
+    <a href="https://wa.me/+919496279843"><i class="bi bi-whatsapp"></i></a>
+    <a href="https://www.instagram.com/sahl_ct/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><i
+        class="bi bi-instagram"></i></a>
+    <a href="https://github.com/sahlct"><i class="bi bi-github"></i></a>
+    <a href="https://mailto.abdullachoyathala786@gmail.com"><i class="bi bi-envelope-at"></i></a>
 
-    </footer>
+  </footer>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
